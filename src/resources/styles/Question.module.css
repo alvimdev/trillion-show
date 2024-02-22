@@ -1,0 +1,52 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 66%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.alternatives {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    row-gap: 10px;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.alternatives > button {
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.alternatives > button:hover{
+    transform: scale(1.1);
+    -webkit-transition: 500ms;
+}
+.err{
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0; 
+    text-align: center;
+    background: rgba(12, 12, 12, 0.5); 
+    color: white; 
+    display: block; 
+    margin:  24%; 
+    margin-top: 35.46%;
+    padding: 10px; 
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}

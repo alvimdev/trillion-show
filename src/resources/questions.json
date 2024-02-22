@@ -1,0 +1,52 @@
+[
+    {
+        "enunciado": "Qual exercício é mais eficaz para treinar o peito?",
+        "alternativas": [
+            "Supino inclinado",
+            "Rosca direta",
+            "Agachamento",
+            "Leg press"
+        ],
+        "resposta": 1
+    },
+    {
+        "enunciado": "Qual é o músculo principal trabalhado no exercício de rosca direta?",
+        "alternativas": [
+            "Panturrilha",
+            "Bíceps",
+            "Tríceps",
+            "Dorsal"
+        ],
+        "resposta": 2
+    },
+    {
+        "enunciado": "Qual é o nome do exercício que trabalha os músculos abdominais?",
+        "alternativas": [
+            "Leg press",
+            "Supino declinado",
+            "Prancha",
+            "Desenvolvimento militar"
+        ],
+        "resposta": 3
+    },
+    {
+        "enunciado": "Qual é o principal objetivo do agachamento livre?",
+        "alternativas": [
+            "Treinar os ombros",
+            "Fortalecer os músculos das costas",
+            "Desenvolver a panturrilha",
+            "Fortalecer as pernas e o glúteo"
+        ],
+        "resposta": 4
+    },
+    {
+        "enunciado": "Qual é o nome do exercício que fortalece os músculos das costas?",
+        "alternativas": [
+            "Supino reto",
+            "Puxada alta",
+            "Rosca direta",
+            "Mesa Flexora"
+        ],
+        "resposta": 2
+    }
+]

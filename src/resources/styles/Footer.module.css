@@ -1,0 +1,36 @@
+.footer{
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    color: azure;
+    padding: 2em;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    margin: 0 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.item > a{
+    color: azure;
+}
+
+.item > a:hover{
+    color: blueviolet;
+}
+
+.copy_right {
+    margin-top: 10px;
+    
+    span{
+        font-weight: bold;
+        color: violet;
+    }
+}
