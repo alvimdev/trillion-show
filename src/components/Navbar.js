@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import { FaUserAlt, FaSignOutAlt } from 'react-icons/fa';
+import { FaUserAlt, FaDoorClosed } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom'; // Importe useNavigate aqui
 
 import styles from '../resources/styles/Navbar.module.css';
@@ -27,7 +27,7 @@ function Navbar() {
             </div>
             <ul className={styles.list}>
                 <li className={styles.item}>
-                    <abbr title='Sair'><FaSignOutAlt onClick={logout} /></abbr>
+                    <abbr title='Sair/Entrar'><FaDoorClosed onClick={logout} /></abbr>
                 </li>
                 <li className={styles.item}>
                     <abbr title={loggedInUser ? (loggedInUser.username) + ' - ' + (users.find(u => (u.username === loggedInUser.username)).lastScore) : '...'}><FaUserAlt/></abbr>
